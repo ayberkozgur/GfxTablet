@@ -75,4 +75,8 @@ public class CanvasActivity extends Activity {
 	        startActivity(i);
 		}
 	}
+
+	@Override
+	public void onBackPressed() {
+    }
 }
